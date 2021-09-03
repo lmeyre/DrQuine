@@ -1,0 +1,1 @@
+./a.out > tmp ; diff Grace_kid.c Grace.c 
