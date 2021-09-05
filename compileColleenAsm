@@ -1,0 +1,3 @@
+nasm -felf64 Colleen.s
+clang Colleen.o
+./a.out 
