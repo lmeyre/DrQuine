@@ -1,4 +1,0 @@
-nasm -felf64 Grace.s
-clang Grace.o
-./a.out
-diff Grace_kid.s Grace.s

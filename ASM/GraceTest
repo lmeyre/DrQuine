@@ -1,5 +1,0 @@
-nasm -felf64 Grace.s
-clang Grace.o
-./a.out 
-./a.out > output
-diff Grace.s output
