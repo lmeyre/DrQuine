@@ -10,14 +10,14 @@ SRCS = Colleen.c						\
 
 all: Colleen Grace Sully
 
-Colleen:	Makefile $(OBJ)
-	@$(CLANG) $(CFLAG) Colleen.c -o Colleen
+Colleen:
+	@$(CLANG) $(FLAGS) Colleen.c -o Colleen
 
 Grace:	
-	@$(CLANG) $(CFLAG) Grace.c -o Grace
+	@$(CLANG) $(FLAGS) Grace.c -o Grace
 
 Sully:
-	@$(CLANG) $(CFLAG) Sully.c -o Sully
+	@$(CLANG) $(FLAGS) Sully.c -o Sully
 clean:
 
 fclean:		clean
