@@ -4,9 +4,10 @@ Goodbye World!
 */
 void Bunny()
 {
-    char *str="#include <stdio.h>%c/*%cGoodbye World!%c*/%cvoid Bunny()%c{%c%cchar *str=%c%s%c;%c%cprintf(str, 10, 10, 10, 10, 10 , 10, 9, 34, str, 34, 10, 9, 10, 10, 10, 10, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10);%c}%c%cint main()%c{%c%c/*%c%cHop%c%c*/%c%cBunny()%c%creturn (0)%c}";
-    printf(str, 10, 10, 10, 10, 10 , 10, 9, 34, str, 34, 10, 9, 10, 10, 10, 10, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10);
+    char *str="#include <stdio.h>%c/*%cGoodbye World!%c*/%cvoid Bunny()%c{%c    char *str=%c%s%c;%c    printf(str, 10, 10, 10, 10, 10 , 10, 34, str, 34, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10);%c}%c%cint main()%c{%c    /*%c    Hop%c    */%c    Bunny();%c    return (0);%c}";
+    printf(str, 10, 10, 10, 10, 10 , 10, 34, str, 34, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10);
 }
+
 int main()
 {
     /*
