@@ -7,7 +7,7 @@ section .data
     nasm db "nasm -f elf64 Sully_%d.s", 0
     compile db "clang -o %s %s && rm Sully_%d.o", 0
     execute db "./%s", 0
-%define index 5 
+%define index 5
 section .text
     global main
     extern sprintf
